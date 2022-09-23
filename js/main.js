@@ -11,6 +11,29 @@
     });
 
 
+    $("#github-icon").on('click', function() { 
+        window.open("https://github.com/xhonaldo")
+    });
+
+    $("#linkedin-icon").on('click', function() { 
+        window.open("https://www.linkedin.com/in/xhonaldo-beqo-9a5057195/")
+    });
+
+    $("#google-icon").on('click', function() { 
+        window.open("https://mail.google.com/mail/u/")
+    });
+
+    $("#sendMessageButton").on('click', function() { 
+        const senderName = $("#name").text
+        const subject = $("#subject").text
+        const body = $("#body".text)
+        const mailto = "beqoxhonaldo@gmail.com"
+        const location = "mailto:"+mailto+"subject="+subject+"body"+body+"%20goes%20here";
+        window.location.href = location
+    });
+
+
+
     // Smooth scrolling on the navbar links
     $(".navbar-nav a").on('click', function (event) {
         if (this.hash !== "") {

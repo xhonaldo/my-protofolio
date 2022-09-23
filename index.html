@@ -42,9 +42,9 @@
                 <a href="#qualification" class="nav-item nav-link">Quality</a>
                 <a href="#skill" class="nav-item nav-link">Skill</a>
                 <a href="#service" class="nav-item nav-link">Service</a>
-                <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
-                <a href="#testimonial" class="nav-item nav-link">Review</a>
-                <a href="#blog" class="nav-item nav-link">Blog</a>
+                <!-- <a href="#portfolio" class="nav-item nav-link">Portfolio</a> -->
+                <!-- <a href="#testimonial" class="nav-item nav-link">Review</a> -->
+                <!-- <a href="#blog" class="nav-item nav-link">Blog</a> -->
                 <a href="#contact" class="nav-item nav-link">Contact</a>
             </div>
             <a href="" class="btn btn-outline-primary d-none d-lg-block">Hire Me</a>
@@ -74,7 +74,7 @@
 
 
     <!-- Header Start -->
-    <div class="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
+    <div class="container-fluid bg-dark d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
@@ -82,11 +82,13 @@
                 </div>
                 <div class="col-lg-7 text-center text-lg-left">
                     <h3 class="text-white font-weight-normal mb-3">I'm</h3>
-                    <h1 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 2px #ffffff;">Xhonaldo Beqo</h1>
+                    <h1 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 2px ">Xhonaldo Beqo</h1>
                     <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
                     <div class="typed-text d-none">Android Developer, IOS Developer, Desktop Developer</div>
                     <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
                         <a href="" class="btn btn-outline-light mr-5">Download CV</a>
+                        <a href="" class="btn btn-outline-light mr-5" id="sendMessageButton" >Email Me</a>
+                        
                         <!-- Video play button
                             <button type="button" class="btn-play" data-toggle="modal"
                             data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
@@ -125,6 +127,10 @@
                         <div class="col-sm-6 py-2"><h6>Address: <span class="text-secondary">Tirana, Albania</span></h6></div>
                         <div class="col-sm-6 py-2"><h6>Freelance: <span class="text-secondary">Available</span></h6></div>
                     </div>
+                    <span class="badge badge-info p-1 m-1">Java</span>
+                    <span class="badge badge-info p-1 m-1">Kotlin</span>
+                    <span class="badge badge-info p-1 m-1">Swift</span>
+                    <span class="badge badge-info p-1 m-1">MYSQL</span>
                     <!--TODO: uncomment for contact buttons --> 
                     <!-- <a href="" class="btn btn-outline-primary mr-4">Hire Me</a>
                     <a href="" class="btn btn-outline-primary">Learn More</a> -->
@@ -283,24 +289,37 @@
             <div class="row pb-3">
                 <div class="col-lg-4 col-md-6 text-center mb-5">
                     <div class="d-flex align-items-center justify-content-center mb-4">
-                        <i class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3"></i>
-                        <h4 class="font-weight-bold m-0">Desktop Development</h4>
-                    </div>
-                    <p>Database embedded system with graphics user interface using Java programming language (FX, Swing), SQL Server Management.</p>
-                </div>
-                <div class="col-lg-4 col-md-6 text-center mb-5">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                        <i class="fab fa-2x fa-android service-icon bg-primary text-white mr-3"></i>
+                        <i class="fab fa-2x fa-android service-icon bg-light text-primary mr-3"></i>
                         <h4 class="font-weight-bold m-0">Android Development</h4>
                     </div>
-                    <p>Android application using best practices suggested by Google. #Java #Kotlin #XML #Kotlin Compose</p>
+                    <p>Android application using best practices suggested by Google.</p>
+                    <span class="badge badge-primary p-2">Java</span>
+                    <span class="badge badge-primary p-2">Kotlin</span>
+                    <span class="badge badge-primary p-2">Android SKD</span>
+                    <span class="badge badge-primary p-2">XML</span>
+                    <span class="badge badge-primary p-2">Kotlin compose</span>
                 </div>
                 <div class="col-lg-4 col-md-6 text-center mb-5">
                     <div class="d-flex align-items-center justify-content-center mb-4">
-                        <i class="fab fa-2x fa-apple service-icon bg-primary text-white mr-3"></i>
+                        <i class="fab fa-2x fa-apple service-icon bg-light text-dark mr-3"></i>
                         <h4 class="font-weight-bold m-0">IOS Development</h4>
                     </div>
-                    <p>IOS application using best practices suggested by Apple. #Swift. #Storyboars #SwiftUI</p>
+                    <p>IOS application using best practices suggested by Apple</p>
+                    <span class="badge badge-primary p-2">Swift</span>
+                    <span class="badge badge-primary p-2">Storyboar</span>
+                    <span class="badge badge-primary p-2">Swift UI</span>
+                    <span class="badge badge-primary p-2">XCode</span>
+                </div>
+
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-laptop service-icon bg-white text-dark mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Desktop Development</h4>
+                    </div>
+                    <p>Database embedded system with graphics user interface.</p>
+                    <span class="badge badge-primary p-2">Java</span>
+                    <span class="badge badge-primary p-2">MYSQL</span>
+                    <span class="badge badge-primary p-2">FX</span>
                 </div>
             </div>
         </div>
@@ -309,7 +328,7 @@
 
 
     <!-- Portfolio Start -->
-    <div class="container-fluid pt-5 pb-3" id="portfolio">
+    <!-- <div class="container-fluid pt-5 pb-3" id="portfolio">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
                 <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Gallery</h1>
@@ -388,12 +407,12 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Portfolio End -->
 
 
     <!-- Testimonial Start -->
-    <div class="container-fluid py-5" id="testimonial">
+    <!-- <div class="container-fluid py-5" id="testimonial">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
                 <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Review</h1>
@@ -427,12 +446,12 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Testimonial End -->
 
 
     <!-- Blog Start -->
-    <div class="container-fluid pt-5" id="blog">
+    <!-- <div class="container-fluid pt-5" id="blog">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
                 <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Blog</h1>
@@ -474,7 +493,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Blog End -->
 
 
@@ -489,7 +508,7 @@
                 <div class="col-lg-8">
                     <div class="contact-form text-center">
                         <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                        <!-- <form name="sentMessage" id="contactForm" novalidate="novalidate">
                             <div class="form-row">
                                 <div class="control-group col-sm-6">
                                     <input type="text" class="form-control p-4" id="name" placeholder="Your Name"
@@ -513,27 +532,28 @@
                                     data-validation-required-message="Please enter your message"></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
-                            <div>
-                                <button class="btn btn-outline-primary" type="submit" id="sendMessageButton">Send
-                                    Message</button>
-                            </div>
-                        </form>
+                        </form> -->
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="d-flex justify-content-center mb-2">
+        <a class="btn btn-info btn-social mr-4" id="linkedin-icon"><i class="fab fa-linkedin-in"></i></a>
+        <a class="btn btn-dark btn-social mr-4" id="github-icon"><i class="fab fa-github"></i></a>
+        <a class="btn btn-danger btn-social mr-4" id="google-icon"><i class="fab fa-google"></i></a>
+    </div>
     <!-- Contact End -->
 
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
+    <div class="container-fluid bg-dark text-white mt-5 py-5 px-sm-3 px-md-5">
         <div class="container text-center py-5">
-            <div class="d-flex justify-content-center mb-4">
-                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                <a class="btn btn-light btn-social" href="#"><i class="fab fa-instagram"></i></a>
+            <!-- <div class="d-flex justify-content-center mb-4">
+                <a class="btn btn-light btn-social mr-2" id="linkedin-icon"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-light btn-social mr-2" id="github-icon"><i class="fab fa-github"></i></a>
+                <a class="btn btn-light btn-social" id="instagram-icon"><i class="fab fa-instagram"></i></a>
             </div>
             <div class="d-flex justify-content-center mb-3">
                 <a class="text-white" href="#">Privacy</a>
@@ -543,7 +563,7 @@
                 <a class="text-white" href="#">FAQs</a>
                 <span class="px-3">|</span>
                 <a class="text-white" href="#">Help</a>
-            </div>
+            </div> -->
             <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">XhonaldoBeqo</a>. All Rights Reserved. Designed by <a class="text-white font-weight-bold" href="https://htmlcodex.com">HTML Codex</a>
             </p>
         </div>
